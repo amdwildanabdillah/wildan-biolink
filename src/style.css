@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  
+  /* Palet Warna Brand Mas Wildan */
+  --color-vixel: #06b6d4;   /* Cyan */
+  --color-porto: #818cf8;   /* Indigo/Purple */
+  --color-story: #f59e0b;   /* Amber/Gold (Storydesto) */
+  --color-cempe: #166534;   /* Forest Green (Omah Cempe) */
+}
+
+body {
+  background-color: #020617; /* Slate 950 (Lebih gelap dari hitam biasa) */
+  color: white;
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(6, 182, 212, 0.08), transparent 25%), /* Glow Cyan Kiri */
+    radial-gradient(circle at 85% 30%, rgba(129, 140, 248, 0.08), transparent 25%); /* Glow Ungu Kanan */
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar (Biar gak ngerusak pemandangan di Chrome Windows) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #020617; 
+}
+::-webkit-scrollbar-thumb {
+  background: #334155; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569; 
+}
