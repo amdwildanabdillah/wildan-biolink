@@ -64,7 +64,7 @@ const secondaryLinks = [
     id: 6,
     name: 'Instagram Destograph', 
     desc: 'Visual Branding & Production',
-    url: 'https://blog.vixelcreative.my.id', 
+    url: 'https://instagram.com/destograph_', 
     type: 'social',
     icon: PhInstagramLogo, 
     iconBg: 'bg-pink-900/40 text-pink-400',
