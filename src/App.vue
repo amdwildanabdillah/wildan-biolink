@@ -214,7 +214,7 @@ const secondaryLinks = [
     <Footer />
 
     <a 
-      href="https://wa.me/628xxxxxxxx" 
+      href="https://wa.me/6285232351908?text=Halo%20Raden%20Mas%20Wildan,%20saya%20tertarik%20untuk%20diskusi%20project." 
       target="_blank"
       class="fixed bottom-6 right-6 z-50 w-14 h-14 flex items-center justify-center bg-[#25D366] hover:bg-[#20bd5a] rounded-full shadow-2xl animate-bounce-slow transition hover:scale-110"
     >
