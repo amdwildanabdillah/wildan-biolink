@@ -39,7 +39,7 @@ const mainLinks = [
     id: 3,
     name: 'Storydesto', 
     desc: 'Capture Your Best Moment',
-    url: 'https://portfolio-storydesto.netlify.app',
+    url: 'https://storydesto.my.id',
     type: 'web',
     image: '/desto.png', // FILE TETAP INI
     colorClass: 'group-hover:border-amber-500 group-hover:shadow-[0_0_20px_rgba(245,158,11,0.3)]',
